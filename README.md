@@ -37,11 +37,11 @@ This demo is provided “as is” to show the parts that are ready for experimen
 You will need to have nodejs >=14.9.0 in order to run this demo. [Node 14 LTS](https://nodejs.org/en/about/releases/) is a good choice! (If you use `nvm`, run `nvm i` before running `npm install` to install the recommended Node version.)
 
   ```
-  npm install
-  npm start
+  pnpm install --shamefully-hoist
+  pnpm start
   ```
 
-(Or `npm run start:prod` for a production build.)
+(Or `pnpm start:prod` for a production build.)
 
 Then open http://localhost:4000.
 
@@ -102,7 +102,7 @@ CREATE TABLE notes (
 
 ### Step 3. Run the seed script
 
-Finally, run `npm run seed` to populate some data.
+Finally, run `pnpm seed` to populate some data.
 
 And you're done!
 
